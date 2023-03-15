@@ -60,6 +60,7 @@ export function filterVacancy(vacancy: Vacancy) {
 		/\bflutter\b/i.test(vacancy.name),
 		/\brust\b/i.test(vacancy.name),
 		/\bruby\b/i.test(vacancy.name),
+		/\bgo\b/i.test(vacancy.name),
 	]
 	
 	if (blacklist.some(value => value))
